@@ -1,0 +1,12 @@
+function isSubsequence(str1,str2) {
+  let concat = str1 + str2;
+  let i = 0;
+  let j=str1.length;
+  while(j<concat.length){
+      if(concat[i] === concat[j]){
+          if( i== str1.length -1)
+            return true;
+         i++;
+      }
+         j++;
+}}
